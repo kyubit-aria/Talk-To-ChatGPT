@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "chat-to-gpt",
+	"id": "chat-to-ai",
 	"version": "${version}",
-	"name": "Chat2GPT",
-	"description": "Allows you to send messages to ChatGPT",
+	"name": "Aria's Chat to AI",
+	"description": "Allows you to send messages to ChatGPT in game",
 	"authors": [
 		"Kyuubit"
 	],
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"chattogpt.mixins.json",
+		"chattoai.mixins.json",
 		{
-			"config": "chattogpt.client.mixins.json",
+			"config": "chattoai.client.mixins.json",
 			"environment": "client"
 		}
 	],
