@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "chat-to-gpt",
+	"version": "${version}",
+	"name": "Chat2GPT",
+	"description": "Allows you to send messages to ChatGPT",
+	"authors": [
+		"Kyuubit"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/template-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"neko.kyuubit.ChatMod"
+		],
+		"client": [
+			"neko.kyuubit.ChatClient"
+		]
+	},
+	"mixins": [
+		"chattogpt.mixins.json",
+		{
+			"config": "chattogpt.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
