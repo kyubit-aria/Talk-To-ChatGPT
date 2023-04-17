@@ -1,4 +1,4 @@
-# Minecraft Chat2GPT
+# Minecraft Chat To AI
 
 ***Disclaimer - Using the API is not free, Messaging consumes tokens, which cost money. For pricing details, visit [OpenAI Pricing](https://openai.com/pricing)***
 
